@@ -74,7 +74,7 @@ article {
     bottom: 20px;
     left: 0;
     right: 0;
-    background-color: rgba(241, 250, 238, 0.85);
+    background-color: var(--accent2-color);
 }
 
 .hero article img {
@@ -85,6 +85,7 @@ article {
 
 footer {
     margin-top: 20px;
+    background-color: var(--secondary-color);
 }
 
 .socialmedia img {
