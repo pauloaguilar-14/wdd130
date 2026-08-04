@@ -152,3 +152,66 @@ footer {
     height: auto;
     margin-left: 10px;
 }
+
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contact-details iframe {
+    border: none;
+    width: 400px;
+    height: 300px;
+}
+
+.contact-details form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.contact-details button {
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-details button:hover {
+    background-color: var(--primary-color);
+}
+
+.employees {
+    margin-top: 20px;
+    background-color: var(--accent2-color);
+    padding: 20px;
+    text-align: center;
+}
+
+.employees-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.employees-container figure {
+    text-align: center;
+    width: 25%;
+}
+
+.employees-container img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+}
