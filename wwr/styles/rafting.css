@@ -82,6 +82,7 @@ header nav a {
     left: 0;
     right: 0;
     background-color: var(--accent2-color);
+    color: var(--primary-color);
     padding: 10px;
 }
 
@@ -135,6 +136,7 @@ header nav a {
 footer {
     margin-top: 20px;
     background-color: var(--secondary-color);
+    color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
