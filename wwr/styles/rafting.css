@@ -215,3 +215,7 @@ footer {
     object-fit: cover;
     object-position: top;
 }
+
+.employees-container figcaption {
+    color: var(--primary-color);
+}
