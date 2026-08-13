@@ -363,3 +363,19 @@ footer {
 .trips-table tr:nth-child(even) {
     background-color: var(--accent2-color);
 }
+
+.contact-details {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contact-heading {
+    grid-column: 1 / -1;
+}
+
+.contact-details iframe {
+    width: 400px;
+    height: 300px;
+}
